@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target .NET 6.0 (cross-platform). If you need old .NET Framework 4.8, see note below. -->
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- pythonnet provides Python.Runtime -->
+    <PackageReference Include="pythonnet" Version="3.0.3" />
+  </ItemGroup>
+
+</Project>
